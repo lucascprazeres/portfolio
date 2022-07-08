@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.main img {
+  width: 12.5rem;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -84,17 +88,6 @@
   width: 18.75rem;
 }
 
-@media(max-width: 720px) {
-  .grid {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .card {
-    width: 100%;
-  }
-}
-
 .card header {
   display: flex;
   align-items: center;
@@ -124,9 +117,17 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media(max-width: 720px) {
   .grid {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .main h1 {
+    font-size: 3rem;
   }
 }

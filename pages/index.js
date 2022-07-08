@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/perfil.png" width={200} alt="Lucas Prazeres" />
+        <img src="/perfil.png" alt="Lucas Prazeres" />
 
         <h1 className={styles.title}>
           Lucas Prazeres
